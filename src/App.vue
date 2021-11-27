@@ -13,6 +13,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/stylesheets/btn";
+
 body {
   padding: 0;
   margin: 0;
@@ -28,15 +30,6 @@ body {
 
   .body {
     padding: 1em;
-  }
-
-  *,
-  *::after,
-  *::before {
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-app-region: no-drag;
-    cursor: default;
   }
 }
 </style>

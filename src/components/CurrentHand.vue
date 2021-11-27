@@ -10,6 +10,9 @@
         </td>
       </tr>
     </table>
+    <div class="btn-group">
+      <button class="btn btn-primary">set board</button>
+    </div>
   </div>
 </template>
 
@@ -53,6 +56,11 @@ export default {
     text-align: center;
     border: 1px solid #000000;
     border-radius: 4px;
+  }
+
+  .btn-group {
+    float: right;
+    margin: 15px;
   }
 }
 </style>
